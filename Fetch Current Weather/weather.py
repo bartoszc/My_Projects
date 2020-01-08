@@ -10,3 +10,5 @@ page = requests.get(URL)
 soup = BeautifulSoup(page.content, 'html.parser')
 a = soup.find("td", text="City").find_next_sibling("td").text
 print(a)
+
+#
