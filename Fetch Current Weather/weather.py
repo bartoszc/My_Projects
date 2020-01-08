@@ -12,3 +12,4 @@ a = soup.find("td", text="City").find_next_sibling("td").text
 print(a)
 
 #
+# ee
